@@ -19,7 +19,7 @@ export default function Index() {
             href="https://remix.run/start/quickstart"
             rel="noreferrer"
           >
-            Hola Mundo
+            lautaro lautaro lautaro goooooool de argentina minuto 112 de la prorroga
           </a>
         </li>
         <li>
