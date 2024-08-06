@@ -19,7 +19,7 @@ export default function Index() {
             href="https://remix.run/start/quickstart"
             rel="noreferrer"
           >
-            cambios de daniel branch
+            cambios de daniel para rama main
           </a>
         </li>
         <li>
