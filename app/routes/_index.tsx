@@ -19,7 +19,7 @@ export default function Index() {
             href="https://remix.run/start/quickstart"
             rel="noreferrer"
           >
-            Pruebaaaaa 3333s
+            Pruebaaaaa 3333sññññññññññññ
           </a>
         </li>
         <li>
