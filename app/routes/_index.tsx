@@ -19,7 +19,7 @@ export default function Index() {
             href="https://remix.run/start/quickstart"
             rel="noreferrer"
           >
-            hols
+            Hola Mundo
           </a>
         </li>
         <li>
