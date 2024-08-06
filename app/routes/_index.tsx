@@ -19,7 +19,8 @@ export default function Index() {
             href="https://remix.run/start/quickstart"
             rel="noreferrer"
           >
-            Pruebaaaaa 3333s
+            Pru
+            agua de panelas
           </a>
         </li>
         <li>
