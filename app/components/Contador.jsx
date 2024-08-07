@@ -31,7 +31,7 @@ const Contador = () => {
   }, [valor, gasto, agrego]);
 
   return (
-    <div className="bg-slate-300 p-11 mx-10">
+    <div className="bg-pink-400 p-11 mx-10">
       <h2>Agrega un valor inicial</h2>
       <label>
         Valor inicial:
