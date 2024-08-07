@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Contador = () => {
   // Defino los estados y variables, y los inicializo vacios
@@ -31,32 +31,18 @@ const Contador = () => {
   }, [valor, gasto, agrego]);
 
   return (
-    <div>
+    <div className="bg-slate-300 p-11 mx-10">
       <h2>Agrega un valor inicial</h2>
-        <label>
-          Valor inicial:
-          <input
-            type="number"
-            value={valor}
-            onChange={handleChangeInicial}
-          />
-        </label>
-
+      <label>
+        Valor inicial:
+        <input type="number" value={valor} onChange={handleChangeInicial} />
+      </label>
+      <br />
       <p>Agregar gasto:</p>
-      <input
-        type="number"
-        value={gasto}
-        onChange={handleChangeGasto}
-      />
-
+      <input type="number" value={gasto} onChange={handleChangeGasto} />
       <p>Agregar billete:</p>
-      <input
-        type="number"
-        value={agrego}
-        onChange={handleChangeagrego}
-      />
-
-      <h2>Total: {total}</h2>
+      <input type="number" value={agrego} onChange={handleChangeagrego} />
+      <h1>Total: <strong>{total}</strong></h1>
     </div>
   );
 };
